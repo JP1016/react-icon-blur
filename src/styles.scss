@@ -1,0 +1,44 @@
+.icon-wrapper {
+  .icon-container {
+    .icon {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      width: 100px;
+      height: 100px;
+      box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, 0.015);
+      img {
+        height: 70%;
+        width: 70%;
+        z-index: 2;
+        filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.12));
+      }
+
+      .background {
+        position: absolute;
+        z-index: 1;
+        pointer-events: none;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: scale(2);
+        filter: blur(13px) opacity(0.2);
+      }
+    }
+
+    .rounded {
+      border-radius: 10%;
+    }
+
+    .square {
+      border-radius: 0%;
+    }
+
+    .circle {
+      border-radius: 100%;
+    }
+  }
+}

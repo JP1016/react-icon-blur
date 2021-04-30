@@ -1,0 +1,46 @@
+{
+  "name": "react-icon-blur",
+  "version": "1.0.2",
+  "description": "Icon Blur Library",
+  "author": "Jithin Pariyarath",
+  "license": "Apache-2.0",
+  "repository": "JP1016/react-icon-blur",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": ">= 16.8.0 < 2",
+    "react-dom": ">= 16.8.0 < 2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.3.13",
+    "@types/react-dom": "^16.0.5",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "rollup": "^1.29.0",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-typescript2": "^0.25.3",
+    "typescript": "^2.8.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react-icon-blur",
+    "icon-blur",
+    "image-blur",
+    "blurred-icon",
+    "blurred-image",
+    "icon-blur-effect",
+    "blurred-effect"
+  ]
+}
