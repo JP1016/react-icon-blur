@@ -2,6 +2,9 @@
 
 a tiny react library that can be used to create frosted glass effect of icons.
 
+## Preview
+![preview](https://imgur.com/a0P7xon.gif)
+
 ## How to use
 
 <img src="https://github.com/JP1016/react-icon-blur/blob/master/preview.png" width=50% height=50%>
